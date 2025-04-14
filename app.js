@@ -17,13 +17,22 @@ clientesComVolumeRusso.push("Geovana") // incluindo clientes nesse array
 clientesComVolumeRusso.push("Carol")
 clientesComVolumeRusso.push("Dafiny")
 clientesComVolumeRusso.push("Patricia")
+clientesComVolumeRusso.push("Daniela")
+
 console.dir(clientesComVolumeRusso)
 
-document.getElementById("conteudo").innerHTML = clientesComVolumeRusso[0]
+// criou uma lista
+document.getElementById("conteudo").innerHTML = "<ul>"
 
- 
+document.getElementById("conteudo").innerHTML += "<li>" + clientesComVolumeRusso[0] + "<li>"
  // document.getElementById("conteudo").innerHTML = clientesComVolumeRusso[2]
  // se eu repito o codigo substitui o comando de cima se quiser manter o anterior e adicionar um novo precisa de +=
- document.getElementById("conteudo").innerHTML += clientesComVolumeRusso[2] + "-"
+ document.getElementById("conteudo").innerHTML +=  "<li>" + clientesComVolumeRusso[1] + "<li>"
+ document.getElementById("conteudo").innerHTML +=  "<li>" + clientesComVolumeRusso[2] + "<li>"
+ document.getElementById("conteudo").innerHTML +=  "<li>" + clientesComVolumeRusso[3] + "<li>"
+ document.getElementById("conteudo").innerHTML +=  "<li>" + clientesComVolumeRusso[4] + "<li>"
+
+ document.getElementById("conteudo").innerHTML += "<li>"
+
 
 
